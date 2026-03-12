@@ -7,5 +7,10 @@
     mouseEvent.addEventListener('mouseleave', function() {
             console.log("mouse left");
         });
-    
+        textEvent.addEventListener('keydown', function (event){
+        console.log(`Key pressed: ${event.key}`);
+        })
  })
+ function unfocus() {
+    console.log("Not in focus");
+ }
